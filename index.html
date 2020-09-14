@@ -4,12 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Guess Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Guess what fruit I am craving!</h1>
-    <div id="words">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 title">
+                Word Guess Game
+            </div>
+        </div>
+        <div class="row row2">
+            <div class="col-sm-2 col-md-2 col-lg-2 instructionsHeader">INSTRUCTIONS: </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 instructions">
+                Use the letters provided to guess the mystery fruit! You have ten guesses!
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1"></div>
+        </div>
+        <div class="row row3">
+            <div style="text-align: center;" class="col-sm-12 col-md-12 col-lg-12 buttons"></div>
+        </div>
+        <div class="row row4">
+            <div class="col-sm-2 col-md-2 col-lg-2 guessMe">Here is your Word: </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 word-guess"></div>
+            <div class="col-sm-4 col-md-4 col-lg-4 guessesRemaining">Number of Guesses Remaining: </div>
+            <div class="col-sm-2 col-md-2 col-lg-2 guessesLeft"></div>
+        </div>
+        <div class="row row5">
+            <div class="col-sm-12 col-md-12 col-lg-12 guessResult"></div>
+        </div>
+        <div class="row row5">
+            <div class="col-sm-4 col-md-4 col-lg-4 gamesPlayed">Games Played: </div>
+            <div class="col-sm-2 col-md-2 col-lg-2 totalGames"></div>
+            <div class="col-sm-4 col-md-4 col-lg-4 gamesWon">Games Won: </div>
+            <div class="col-sm-2 col-md-2 col-lg-2 wins"></div>
+        </div>
+    </div>
+
         
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/javascript/game.js">
     </script>
 </body>
