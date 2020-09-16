@@ -32,7 +32,7 @@ function newGame() {
     guessesLeft = 10; 
     wordGuess = []; 
 
-    $(".letter-button-color").css({ backgroundColor: "purple" }); 
+    $(".letter-button-color").css({ backgroundColor: "#d84a43", height: "40px", width: "40px", borderStyle: "solid", marginTop: "20px", borderColor: "#f6de9f", marginRight: "10px", color: "#f6de9f" }); 
     $(".letter-button-color").attr('disabled', false); 
     $(".guessesLeft").text(guessesLeft); 
 
@@ -77,7 +77,8 @@ $(document).on("click", ".letter-button", function() {
         else {
             $(".guessResult").text("Guess again!"); 
             guessesLeft--; 
-            document.getElementById(this.style.backgroundColor = "#eca1a6"); 
+            document.getElementById(this.style.backgroundColor = "brightred"); 
+            document.getElementById(this.style.color = "brightred") 
             $(this).attr('disabled', true); 
             $(".guessesLeft").text(guessesLeft); 
         }

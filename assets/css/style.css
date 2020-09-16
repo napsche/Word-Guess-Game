@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+}
+.title {
+    font-size: 60px;
+    color:  #d84a43; 
+    background-color: #dfb87a;
+    width: fit-content;
+    margin-left: 35%;
+    margin-top: 20px; 
+}
+.instructionsHeader {
+    color: #9a9517; 
+    font-size: 50px;
+    background-color: #f6de9f;
+    width: fit-content;
+    margin-left: 37.5%;
+    margin-top: 40px; 
+}
+.instructions {
+    font-size: 40px; 
+    color: #d84a43; 
+    margin-top: 20px; 
+    background-color: #dfb87a;
+    width: fit-content;
+    margin-left: 10%;
+
+}
+.row4 {
+    background-color: #f6de9f;
+    color: #9a9517;
+    margin-top: 20px; 
+    width: fit-content;
+    margin-left: 37%; 
+    font-size: 30px; 
+}
+.row5 {
+    background-color: #dfb87a;
+    color: #d84a43;
+    margin-top: 20px; 
+    width: fit-content;
+    margin-left: 47%; 
+    font-size: 20px; 
+}
