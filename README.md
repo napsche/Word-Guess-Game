@@ -2,7 +2,6 @@
 
 Week 3 JavaScript Homework
 
-![image]
 <img width="1440" alt="wordguess" src="https://user-images.githubusercontent.com/61030867/93614639-630b7400-f9a0-11ea-8a26-dfef9437e9c8.png">
 
 #Instructions
